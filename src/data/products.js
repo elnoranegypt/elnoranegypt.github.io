@@ -40,25 +40,29 @@ export const products = [
   // ---------- Fresh Fruits ----------
   {
     id: 'lemon', name: 'Lemon', category: 'fruits', image: img('fruits', 'lemons'), source: 'company', accent: '#E2C21B',
+    description: 'Available from December through the first half of January.',
   },
   {
     id: 'oranges', name: 'Oranges', category: 'fruits', image: img('fruits', 'oranges'), source: 'company', accent: '#F5A623',
-    description: 'Navel Orange, Valencia Orange',
+    description: 'Navel and Valencia Oranges. Available from December through the first half of May.',
   },
   {
     id: 'pomegranates', name: 'Pomegranates', category: 'fruits', image: img('fruits', 'pomegranates'), source: 'company', accent: '#C9303A',
   },
   {
     id: 'strawberry', name: 'Strawberry', category: 'fruits', image: img('fruits', 'strawberries'), source: 'company', accent: '#E84B45',
+    description: 'Available from May to December .',
   },
   {
     id: 'mango', name: 'Mango', category: 'fruits', image: img('fruits', 'mangoes'), source: 'library', accent: '#F2A20C',
   },
   {
     id: 'grapes', name: 'Grapes', category: 'fruits', image: img('fruits', 'grapes'), source: 'library', accent: '#9BB830',
+    description: 'Green Grapes: Available from the second half of May through June.\nRed Grapes: Available from June through the first half of August.\nBlack Grapes: Available from June through the first half of July.',
   },
   {
     id: 'mandarin', name: 'Mandarin', category: 'fruits', image: img('fruits', 'mandarins'), source: 'library', accent: '#F28A1A',
+    description: 'Available from December through the first half of March .',
   },
 
   // ---------- Fresh Vegetables ----------
