@@ -10,10 +10,10 @@ const { width: W, height: H, pins } = mapData;
 
 // Markets named in the company profile — region level only, no specific countries claimed.
 const regions = [
-  { id: 'europe', name: 'Europe', color: '#8FD3F0', text: 'Fresh and frozen produce for markets across Europe.' },
-  { id: 'africa', name: 'Africa', color: '#F5A623', text: 'Serving markets across the African continent.' },
-  { id: 'asia', name: 'Asia', color: '#FF8A7A', text: 'Fresh and frozen produce for markets in Asia.' },
-  { id: 'arab', name: 'Arab Countries', color: '#A5C900', text: 'Serving markets across Arab countries.' },
+  { id: 'europe', name: 'Europe', color: '#8FD3F0', text: 'Supplying fresh and frozen produce to markets across Europe.' },
+  { id: 'africa', name: 'Africa', color: '#F5A623', text: 'Supplying fresh and frozen produce to markets across Africa.' },
+  { id: 'asia', name: 'Asia', color: '#FF8A7A', text: 'Supplying fresh and frozen produce to markets across Asia.' },
+  { id: 'arab', name: 'Arab Countries', color: '#A5C900', text: 'Supplying fresh and frozen produce to markets across Arab countries.' },
 ];
 
 const arc = (a, b) => {
