@@ -93,7 +93,7 @@ export default function GlobalPresence() {
         <div className="region-grid">
           {regions.map((r, i) => (
             <Reveal key={r.id} className="region-card" delay={i * 0.1} style={{ '--c': r.color }}>
-              <span className="region-icon">{i % 2 ? <Ship size={20} /> : <Plane size={20} />}</span>
+              <span className="region-icon"><Ship size={20} /></span>
               <h3>{r.name}</h3>
               <p>{r.text}</p>
             </Reveal>
