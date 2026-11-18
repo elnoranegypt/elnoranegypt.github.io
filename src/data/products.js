@@ -40,19 +40,16 @@ export const products = [
   // ---------- Fresh Fruits ----------
   {
     id: 'lemon', name: 'Lemon', category: 'fruits', image: img('fruits', 'lemons'), source: 'company', accent: '#E2C21B',
-    description: 'Bright, aromatic lemons with a fresh, tangy juice — a kitchen essential for retailers, caterers and food processors.',
   },
   {
     id: 'oranges', name: 'Oranges', category: 'fruits', image: img('fruits', 'oranges'), source: 'company', accent: '#F5A623',
-    description: 'Juicy Egyptian oranges with a vibrant colour and naturally sweet flavour, among the most recognisable fruits of Egypt’s citrus harvest.',
+    description: 'Navel Orange, Valencia Orange',
   },
   {
     id: 'pomegranates', name: 'Pomegranates', category: 'fruits', image: img('fruits', 'pomegranates'), source: 'company', accent: '#C9303A',
-    description: 'Deep-red pomegranates filled with jewel-like, juicy arils, prized for fresh eating, juicing and culinary use.',
   },
   {
     id: 'strawberry', name: 'Strawberry', category: 'fruits', image: img('fruits', 'strawberries'), source: 'company', accent: '#E84B45',
-    description: 'Sweet, fragrant strawberries with a glossy red finish, handled with care to reach customers fresh.',
   },
   {
     id: 'mango', name: 'Mango', category: 'fruits', image: img('fruits', 'mangoes'), source: 'library', accent: '#F2A20C',
