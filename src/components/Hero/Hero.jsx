@@ -92,7 +92,7 @@ export default function Hero() {
           <motion.ul className="hero-meta" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.3, duration: 0.8 }}>
             <li><Sun size={16} /> Fresh produce</li>
             <li><Snowflake size={16} /> Frozen range</li>
-            <li><Leaf size={16} /> GlobalG.A.P. &middot; SMETA &middot; Fairtrade standards</li>
+            <li><Leaf size={16} /> GlobalG.A.P. &middot;Fairtrade standards</li>
           </motion.ul>
         </motion.div>
 
