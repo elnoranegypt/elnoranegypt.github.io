@@ -14,7 +14,7 @@ const reasons = [
   },
   {
     icon: ShieldCheck, title: 'International Standards', color: '#285900',
-    text: 'Our products are subject to international certification and auditing standards, including GlobalG.A.P., SMETA and Fairtrade.',
+    text: 'Our products are subject to international certification and auditing standards, including GlobalG.A.P. and Fairtrade.',
   },
   {
     icon: Leaf, title: 'Sustainability', color: '#78A900',
