@@ -76,7 +76,7 @@ export const products = [
     id: 'onion', name: 'Onion', category: 'vegetables', image: img('vegetables', 'onions'), source: 'library', accent: '#A2385A',
   },
   {
-    id: 'peas', name: 'Peas', category: 'vegetables', image: img('vegetables', 'peas'), source: 'library', accent: '#5E9E1E',
+    id: 'peas', name: 'Potatoes', category: 'vegetables', image: 'images/vegetables/peas-new.jpg', source: 'library', accent: '#5E9E1E',
   },
   {
     id: 'sweet-potatoes', name: 'Sweet Potatoes', category: 'vegetables', image: img('vegetables', 'sweet-potatoes'), source: 'company', accent: '#C4614A',
