@@ -51,7 +51,7 @@ export const products = [
   },
   {
     id: 'strawberry', name: 'Strawberry', category: 'fruits', image: img('fruits', 'strawberries'), source: 'company', accent: '#E84B45',
-    description: 'Available from May to December .',
+    description: 'Available from the second half of November to May .',
   },
   {
     id: 'grapes', name: 'Grapes', category: 'fruits', image: img('fruits', 'grapes'), source: 'library', accent: '#9BB830',
