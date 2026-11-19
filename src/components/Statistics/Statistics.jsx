@@ -15,7 +15,7 @@ const stats = [
   { icon: Sprout, value: fresh, label: 'Fresh Products', note: 'Fruits & vegetables', color: '#A5C900' },
   { icon: Snowflake, value: frozen, label: 'Frozen Products', note: 'Fruits & vegetables', color: '#8FD3F0' },
   { icon: Globe2, value: company.markets.length, label: 'Market Regions', note: 'Europe · Africa · Asia · Arab', color: '#FF8A7A' },
-  { icon: ShieldCheck, value: company.standards.length, label: 'Quality Standards', note: 'GlobalG.A.P. · SMETA · Fairtrade', color: '#FFD36B' },
+  { icon: ShieldCheck, value: company.standards.length, label: 'Quality Standards', note: 'GlobalG.A.P. · Fairtrade', color: '#FFD36B' },
 ];
 
 function Stat({ icon: Icon, value, from = 0, label, note, color, delay }) {
