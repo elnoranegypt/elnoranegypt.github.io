@@ -15,6 +15,7 @@ const headline = [
   { text: 'the', em: false },
   { text: 'World.', em: false },
 ];
+const typed = ['juicy oranges', 'fresh strawberries', 'ruby pomegranates', 'golden onions', 'aromatic garlic', 'sweet potatoes', 'frozen mango', 'frozen vegetables'];
 
 export default function Hero() {
   const ref = useRef(null);
@@ -76,6 +77,10 @@ export default function Hero() {
             ))}
           </h1>
 
+          <motion.p className="hero-typed" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.7 }}>
+            Exporting <Typewriter words={typed} />
+          </motion.p>
+
           <motion.p className="hero-sub" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.8, duration: 0.7 }}>
             Premium Fresh &amp; Frozen Fruits and Vegetables, Carefully Selected for Global Markets.
           </motion.p>
@@ -92,7 +97,7 @@ export default function Hero() {
           <motion.ul className="hero-meta" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.3, duration: 0.8 }}>
             <li><Sun size={16} /> Fresh produce</li>
             <li><Snowflake size={16} /> Frozen range</li>
-            <li><Leaf size={16} /> GlobalG.A.P. &middot;Fairtrade standards</li>
+            <li><Leaf size={16} /> GlobalG.A.P. &middot; Fairtrade standards</li>
           </motion.ul>
         </motion.div>
 
