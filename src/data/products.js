@@ -43,8 +43,8 @@ export const products = [
     description: 'Available from December through the first half of January.',
   },
   {
-    id: 'oranges', name: 'Oranges', category: 'fruits', image: img('fruits', 'oranges'), source: 'company', accent: '#F5A623',
-    description: 'Navel and Valencia Oranges. Available from December through the first half of May.',
+    id: 'oranges', name: 'Orange', category: 'fruits', image: img('fruits', 'oranges'), source: 'company', accent: '#F5A623',
+    description: 'Navel and Valencia Orange. Available from December through the first half of May.',
   },
   {
     id: 'pomegranates', name: 'Pomegranates', category: 'fruits', image: img('fruits', 'pomegranates'), source: 'company', accent: '#C9303A',
