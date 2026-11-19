@@ -85,7 +85,7 @@ export const products = [
     id: 'garlic', name: 'Garlic', category: 'vegetables', image: img('vegetables', 'garlic'), source: 'library', accent: '#B9A27A',
   },
   {
-    id: 'tomatoes', name: 'Tomatoes', category: 'vegetables', image: img('vegetables', 'tomatoes'), source: 'library', accent: '#E0382E',
+    id: 'tomatoes', name: 'Sun-Dried Tomatoes', category: 'vegetables', image: img('vegetables', 'tomatoes'), source: 'library', accent: '#E0382E',
   },
 
   // ---------- Frozen Fruits & Vegetables ----------
