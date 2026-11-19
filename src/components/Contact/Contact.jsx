@@ -69,8 +69,9 @@ export default function Contact({ inquiry }) {
               <div>
                 <h3>WhatsApp</h3>
                 {whatsappContacts.map((c) => (
-                  <a key={c.id} href={whatsappLink(c.number)} target="_blank" rel="noopener noreferrer">
-                    {c.display} <small>&middot; {c.name}</small>
+                  <a key={c.id} className="ci-contact" href={whatsappLink(c.number)} target="_blank" rel="noopener noreferrer">
+                    <span className="ci-contact-name">{c.name}</span>
+                    {c.display} 
                   </a>
                 ))}
               </div>
