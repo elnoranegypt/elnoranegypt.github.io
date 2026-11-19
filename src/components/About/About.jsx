@@ -17,7 +17,7 @@ const milestones = [
   { icon: Building2, title: 'Founded in 2013', text: 'Established in Cairo, Egypt, as an agricultural trade and export company.' },
   { icon: Snowflake, title: 'Fresh & frozen range', text: 'Fresh fruits, fresh vegetables and frozen fruits & vegetables in one catalogue.' },
   { icon: Globe2, title: 'International markets', text: 'Serving customers across Europe, Africa, Asia and Arab countries.' },
-  { icon: ShieldCheck, title: 'Recognised standards', text: 'Products subject to GlobalG.A.P., SMETA and Fairtrade standards.' },
+  { icon: ShieldCheck, title: 'Recognised standards', text: 'Products subject to GlobalG.A.P. and Fairtrade standards.' },
 ];
 
 export default function About() {
