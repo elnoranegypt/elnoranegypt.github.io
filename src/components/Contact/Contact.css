@@ -31,6 +31,9 @@
 .ci-card a { font-weight: 700; color: var(--ink); transition: color 0.3s; overflow-wrap: anywhere; }
 .ci-card a:hover { color: var(--c); }
 .ci-card a small { font-weight: 600; color: var(--muted); }
+.ci-contact { display: flex; flex-direction: column; }
+.ci-contact + .ci-contact { margin-top: 10px; }
+.ci-contact-name { font-weight: 800; color: #000; }
 .ci-email-link { font-size: 0.95rem; }
 .ci-address a { font-weight: 600; font-size: 0.95rem; line-height: 1.5; }
 .ci-address a svg { display: inline; vertical-align: -1px; }
