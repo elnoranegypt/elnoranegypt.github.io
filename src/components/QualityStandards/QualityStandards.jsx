@@ -1,25 +1,11 @@
-import { CheckCircle2, ClipboardCheck, Leaf, Scale, ShieldCheck, Sprout, Users } from 'lucide-react';
+import { CheckCircle2, ClipboardCheck, Leaf, Scale, ShieldCheck, Sprout } from 'lucide-react';
 import SectionHead from '../common/SectionHead.jsx';
 import Reveal from '../common/Reveal.jsx';
 import './QualityStandards.css';
 
-// General descriptions of each standard (not certificate claims).
 const standards = [
-  {
-    id: 'globalgap', name: 'GlobalG.A.P.', mark: 'G.A.P.', icon: Sprout, color: '#4E8A00', grad: 'linear-gradient(135deg, #A5C900, #285900)',
-    text: 'A globally recognised farm assurance standard for Good Agricultural Practice, covering food safety, traceability, environmental care and worker welfare at farm level.',
-    tags: ['Food safety', 'Traceability', 'Good agricultural practice'],
-  },
-  {
-    id: 'smeta', name: 'SMETA', mark: 'SMETA', icon: Users, color: '#2F7FB0', grad: 'linear-gradient(135deg, #8FD3F0, #2F7FB0)',
-    text: 'The Sedex Members Ethical Trade Audit — a widely used ethical audit methodology assessing labour standards, health & safety, the environment and business ethics.',
-    tags: ['Ethical trade', 'Labour standards', 'Health & safety'],
-  },
-  {
-    id: 'fairtrade', name: 'Fairtrade', mark: 'FAIR', icon: Scale, color: '#E5821A', grad: 'linear-gradient(135deg, #F5A623, #E84B45)',
-    text: 'An international system that promotes fairer trading conditions and sustainable livelihoods for farmers and workers, together with responsible production.',
-    tags: ['Fair trading', 'Sustainable livelihoods', 'Responsible sourcing'],
-  },
+  { id: 'globalgap', name: 'GlobalG.A.P.', mark: 'G.A.P.', icon: Sprout, color: '#4E8A00', grad: 'linear-gradient(135deg, #A5C900, #285900)' },
+  { id: 'fairtrade', name: 'Fairtrade', mark: 'FAIR', icon: Scale, color: '#E5821A', grad: 'linear-gradient(135deg, #F5A623, #E84B45)' },
 ];
 
 const pillars = [
@@ -39,11 +25,11 @@ export default function QualityStandards() {
           id="quality-title"
           eyebrow="Quality & Standards"
           title={<>Quality you can <em>trust</em>, standards that matter.</>}
-          lead="All our products are subject to international certification and auditing standards, including GlobalG.A.P., SMETA and Fairtrade — ensuring high quality, food safety and responsible production practices."
+          lead="All our products are subject to international certification and auditing standards, including GlobalG.A.P. and Fairtrade — ensuring high quality, food safety and responsible production practices."
         />
 
         <div className="std-grid">
-          {standards.map(({ id, name, mark, icon: Icon, color, grad, text, tags }, i) => (
+          {standards.map(({ id, name, mark, icon: Icon, color, grad }, i) => (
             <Reveal key={id} className="std-card" delay={i * 0.12} style={{ '--c': color, '--g': grad }}>
               <div className="std-seal" aria-hidden="true">
                 <svg viewBox="0 0 120 120" className="std-seal-ring">
@@ -58,10 +44,6 @@ export default function QualityStandards() {
                 </span>
               </div>
               <h3>{name}</h3>
-              <p>{text}</p>
-              <ul className="std-tags">
-                {tags.map((t) => <li key={t}>{t}</li>)}
-              </ul>
             </Reveal>
           ))}
         </div>
