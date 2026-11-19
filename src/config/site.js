@@ -13,7 +13,7 @@ export const company = {
     'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent('23 Sahl Hamza Street, El Kom El Akhdar, El Haram, Giza, Egypt'),
   markets: ['Europe', 'Africa', 'Asia', 'Arab Countries'],
-  standards: ['GlobalG.A.P.', 'SMETA', 'Fairtrade'],
+  standards: ['GlobalG.A.P.', 'Fairtrade'],
 };
 
 /**
