@@ -9,7 +9,7 @@
   pointer-events: none; white-space: nowrap; user-select: none;
 }
 
-.std-grid { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+.std-grid { position: relative; display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; max-width: 760px; margin-inline: auto; }
 .std-card {
   position: relative; overflow: hidden;
   padding: 40px 32px 34px; border-radius: var(--radius-lg);
