@@ -151,7 +151,7 @@ To serve the site from, for example, `www.elnoranegypt.com`:
 
 ## 7. Content principles
 
-The website uses only information from the EL NORAN company profile: background, vision, mission, the 22 products, standards (GlobalG.A.P., SMETA, Fairtrade), markets (Europe, Africa, Asia, Arab countries) and contact details. No certificate numbers, export volumes, customer counts or specific destination countries have been invented. The "At a glance" counters show only figures from the profile (founded 2013, 14 fresh and 8 frozen products, 4 market regions, 3 standards). Standards are shown as text seals, not official logos.
+The website uses only information from the EL NORAN company profile: background, vision, mission, the 22 products, standards (GlobalG.A.P., Fairtrade), markets (Europe, Africa, Asia, Arab countries) and contact details. No certificate numbers, export volumes, customer counts or specific destination countries have been invented. The "At a glance" counters show only figures from the profile (founded 2013, 14 fresh and 8 frozen products, 4 market regions, 2 standards). Standards are shown as text seals, not official logos.
 
 ## 8. Testing checklist (verified before handover)
 

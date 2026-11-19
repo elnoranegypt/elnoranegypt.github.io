@@ -1,12 +1,5 @@
 [
   {
-    "file": "images/fruits/mangoes.webp",
-    "title": "Mangos - single and halved.jpg",
-    "author": "Ivar Leidus",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg"
-  },
-  {
     "file": "images/fruits/grapes.webp",
     "title": "\"Bunch of Green Grapes in Salem\".jpg",
     "author": "Thamizhpparithi Maari",
@@ -63,13 +56,6 @@
     "source": "https://commons.wikimedia.org/wiki/File:DSCF0839_Bright_ripe_red_tomatoes_piled_together_their_glossy_skins_catching_the_light.jpg"
   },
   {
-    "file": "images/frozen/frozen-figs.webp",
-    "title": "Fig (Ficus carica) fruits.jpg",
-    "author": "Ivar Leidus",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fig_(Ficus_carica)_fruits.jpg"
-  },
-  {
     "file": "images/frozen/frozen-mango.webp",
     "title": "'Dasheri' mango (sliced).jpg",
     "author": "Salil Kumar Mukherjee",
@@ -103,13 +89,6 @@
     "author": "Jack Dykinga, USDA",
     "license": "Public domain",
     "source": "https://commons.wikimedia.org/wiki/File:Autumn_Red_peaches.jpg"
-  },
-  {
-    "file": "images/frozen/frozen-apricots.webp",
-    "title": "Apricots.jpg",
-    "author": "Fir0002",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Apricots.jpg"
   },
   {
     "file": "images/frozen/frozen-okra.webp",

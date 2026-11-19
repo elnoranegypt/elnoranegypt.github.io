@@ -54,9 +54,6 @@ export const products = [
     description: 'Available from May to December .',
   },
   {
-    id: 'mango', name: 'Mango', category: 'fruits', image: img('fruits', 'mangoes'), source: 'library', accent: '#F2A20C',
-  },
-  {
     id: 'grapes', name: 'Grapes', category: 'fruits', image: img('fruits', 'grapes'), source: 'library', accent: '#9BB830',
     description: 'Green Grapes: Available from the second half of May through June.\nRed Grapes: Available from June through the first half of August.\nBlack Grapes: Available from June through the first half of July.',
   },
@@ -90,9 +87,6 @@ export const products = [
 
   // ---------- Frozen Fruits & Vegetables ----------
   {
-    id: 'frozen-figs', name: 'Frozen Figs', category: 'frozen', image: img('frozen', 'frozen-figs'), source: 'library', accent: '#7A4A7E',
-  },
-  {
     id: 'frozen-mango', name: 'Frozen Mango', category: 'frozen', image: img('frozen', 'frozen-mango'), source: 'library', accent: '#F2A20C',
   },
   {
@@ -106,9 +100,6 @@ export const products = [
   },
   {
     id: 'frozen-peaches', name: 'Frozen Peaches', category: 'frozen', image: img('frozen', 'frozen-peaches'), source: 'library', accent: '#F28C5A',
-  },
-  {
-    id: 'frozen-apricots', name: 'Frozen Apricots', category: 'frozen', image: img('frozen', 'frozen-apricots'), source: 'library', accent: '#F2A33A',
   },
   {
     id: 'frozen-okra', name: 'Frozen Okra', category: 'frozen', image: img('frozen', 'frozen-okra'), source: 'library', accent: '#5C8F2E',
