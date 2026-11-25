@@ -9,9 +9,7 @@ export const company = {
   founded: 2013,
   city: 'Cairo, Egypt',
   address: 'Apartment 104, Borg Sama, 7 Abrag El Saad, El Maryoutia, El Haram, Giza, Egypt.',
-  mapsUrl:
-    'https://www.google.com/maps/search/?api=1&query=' +
-    encodeURIComponent('Borg Sama, 7 Abrag El Saad, El Maryoutia, El Haram, Giza, Egypt'),
+  mapsUrl: 'https://maps.app.goo.gl/qkzSf2Fgvpcw3kD2A',
   markets: ['Europe', 'Africa', 'Asia', 'Arab Countries'],
   standards: ['GlobalG.A.P.', 'Fairtrade'],
 };
