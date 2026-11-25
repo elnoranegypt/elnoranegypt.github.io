@@ -34,8 +34,8 @@ export const emailsPendingConfirmation = false;
  * The second number comes from the company profile PDF (+20 100 585 7878).
  */
 export const whatsappContacts = [
-  { id: 'shahd', name: 'Shahd', number: '201156002078', display: '+20 115 600 2078' },
-  { id: 'mahmoud', name: 'Mahmoud', number: '201005857878', display: '+20 100 585 7878' },
+  { id: 'shahd', name: 'Shahd Rafat', number: '201156002078', display: '+20 115 600 2078' },
+  { id: 'mahmoud', name: 'Mahmoud ElGazar', number: '201005857878', display: '+20 100 585 7878' },
 ];
 
 /** Email API endpoint (serverless function). Configure via VITE_EMAIL_API_URL. */

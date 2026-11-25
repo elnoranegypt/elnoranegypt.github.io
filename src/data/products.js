@@ -51,7 +51,7 @@ export const products = [
   },
   {
     id: 'strawberry', name: 'Strawberry', category: 'fruits', image: img('fruits', 'strawberries'), source: 'company', accent: '#E84B45',
-    description: 'Available from May to December .',
+    description: 'Available from the second half of November to May .',
   },
   {
     id: 'grapes', name: 'Grapes', category: 'fruits', image: img('fruits', 'grapes'), source: 'library', accent: '#9BB830',
@@ -88,21 +88,27 @@ export const products = [
   // ---------- Frozen Fruits & Vegetables ----------
   {
     id: 'frozen-mango', name: 'Frozen Mango', category: 'frozen', image: img('frozen', 'frozen-mango'), source: 'library', accent: '#F2A20C',
+    description: 'IQF Frozen Mango upon request.',
   },
   {
     id: 'frozen-strawberry', name: 'Frozen Strawberry', category: 'frozen', image: img('frozen', 'frozen-strawberries'), source: 'library', accent: '#E84B45',
+    description: 'IQF Frozen Strawberry upon request.',
   },
   {
-    id: 'frozen-carrots', name: 'Frozen Carrots', category: 'frozen', image: img('frozen', 'frozen-carrots'), source: 'library', accent: '#F07A1A',
+    id: 'frozen-carrots', name: 'Frozen Mixed Vegetables', category: 'frozen', image: img('frozen', 'frozen-carrots'), source: 'library', accent: '#F07A1A',
+    description: 'IQF Frozen Mixed Vegetables upon request.',
   },
   {
     id: 'frozen-green-beans', name: 'Frozen Green Beans', category: 'frozen', image: img('frozen', 'frozen-green-beans'), source: 'library', accent: '#4E9A2B',
+    description: 'IQF Frozen Green Beans upon request.',
   },
   {
-    id: 'frozen-peaches', name: 'Frozen Peaches', category: 'frozen', image: img('frozen', 'frozen-peaches'), source: 'library', accent: '#F28C5A',
+    id: 'frozen-peaches', name: 'Frozen Peas', category: 'frozen', image: img('frozen', 'frozen-peaches'), source: 'library', accent: '#F28C5A',
+    description: 'IQF Frozen Peas upon request.',
   },
   {
     id: 'frozen-okra', name: 'Frozen Okra', category: 'frozen', image: img('frozen', 'frozen-okra'), source: 'library', accent: '#5C8F2E',
+    description: 'IQF Frozen Okra upon request.',
   },
 ];
 
