@@ -8,10 +8,10 @@ export const company = {
   fullName: 'EL NORAN for Trade & Export',
   founded: 2013,
   city: 'Cairo, Egypt',
-  address: '23 Sahl Hamza Street, El Kom El Akhdar, El Haram, Giza, Egypt.',
+  address: 'Apartment 104, Borg Sama, 7 Abrag El Saad, El Maryoutia, El Haram, Giza, Egypt.',
   mapsUrl:
     'https://www.google.com/maps/search/?api=1&query=' +
-    encodeURIComponent('23 Sahl Hamza Street, El Kom El Akhdar, El Haram, Giza, Egypt'),
+    encodeURIComponent('Borg Sama, 7 Abrag El Saad, El Maryoutia, El Haram, Giza, Egypt'),
   markets: ['Europe', 'Africa', 'Asia', 'Arab Countries'],
   standards: ['GlobalG.A.P.', 'Fairtrade'],
 };
