@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowUp, Mail, MapPin, X } from 'lucide-react';
 import WhatsAppIcon from '../common/WhatsAppIcon.jsx';
+import LinkedInIcon from '../common/LinkedInIcon.jsx';
 import useLockBody from '../../hooks/useLockBody.js';
 import { navLinks } from '../Navbar/Navbar.jsx';
 import { categories } from '../../data/products.js';
@@ -72,7 +73,11 @@ export default function Footer() {
                 <a href={`mailto:${r.email}`}>{r.email}</a>
               </li>
             ))}
-            {emailsPendingConfirmation && <li className="footer-pending">Email addresses pending domain confirmation</li>}
+            <li>
+              <LinkedInIcon size={16} />
+              <a href="https://www.linkedin.com/company/el-noran-egypt/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+            {emailsPendingConfirmation &&<li className="footer-pending">Email addresses pending domain confirmation</li>}
           </ul>
         </div>
       </div>
